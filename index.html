@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather</title>
+    <title>OB-Havo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,18 +15,19 @@
   </head>
   <body>
     <div class="container text-muted mx-auto text-center">
-      <h1 class="my-5">Weather</h1>
+      <h1 class="my-5 text-white ">Ob-Havo</h1>
 
-      <form id="change-location" class="text-muted">
-        <label class="mb-2" for="city">
-          Enter a location for weather information
+      <form id="change-location" class="text-muted m-2">
+        <label class="mb-2 text-white h4" for="city">
+          Ob-havo malumotini olish uchun Davlat yoki shahar nomini kiriting!!!
         </label>
-        <input
+        <input 
           type="text"
           name="city"
           class="form-control"
           autocomplete="off"
         />
+        <div id="btn" class="btn btn-primary px-4 py-3 mt-3">Ob havoni olish</div>
       </form>
 
       <div id="card" class="card shadow-lg d-none">
@@ -43,7 +44,7 @@
 
         <div id="details" class="text-uppercase">
           <h5 class="mb-3">City Name</h5>
-          <p class="mb-3">CLOUDS</p>
+          <p class="mb-3 ">CLOUDS</p>
           <div class="display-4 mb-3">
             <span>TEMP</span>
             <span>&deg;C</span>
